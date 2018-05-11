@@ -1,0 +1,48 @@
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.banner{
+	background: url(../images/bg_lp1.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+header{
+	height:60px;
+	padding:10px 30px;
+	background-color: rgba(224,225,225,0.6);
+}
+.logo{
+	width: 50px;
+	height: 50px;
+}
+.hat{
+	float: left;
+	display: inline-block;
+}
+.title-color{
+	text-decoration:uppercase;
+	color:#052E40;
+}
+.search_my{
+	float:right;
+	border: 3px #000 solid;
+}
+.search1{
+	border:none;
+	background-color: none;
+	width:150px;
+	background-color: transparent;
+}
+.button{
+	color:#fff;
+	background-color: #000;
+	border:none;
+	height: 40px;
+	width: 40px;
+
+}
+
+
