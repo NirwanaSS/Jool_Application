@@ -11,10 +11,11 @@ body{
 }
 header{
 	height:60px;
-	padding:10px 30px;
+	padding:10px 30px 0px;
 	background-color: rgba(224,225,225,0.6);
 }
 .logo{
+	padding-bottom: 5px;
 	width: 50px;
 	height: 50px;
 }
@@ -28,7 +29,7 @@ header{
 }
 .search_my{
 	float:right;
-	border: 3px #000 solid;
+	border: 1px  #052E40 solid;
 }
 .search1{
 	border:none;
@@ -36,13 +37,73 @@ header{
 	width:150px;
 	background-color: transparent;
 }
-.button{
+.button1{
 	color:#fff;
-	background-color: #000;
+	background-color: #095272;
 	border:none;
 	height: 40px;
 	width: 40px;
 
 }
+.nav1{
+	background-color: #095272;
+}
+
+.navbar{
+	padding: 0px;
+}
+.navbar-nav li{
+	z-index:1;
+}
+.navbar-nav li a{
+	font-size: 17px;
+	padding: 15px 60px!important;
+	
+}
+
+.navbar-nav li a:hover{
+	border-right: 2px solid #fff;
+	border-left: 32px solid #fff;
+	transition: 0.5s all;
+
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color:#fff;
+}
+
+@media (max-width: 1200px) {
+	.navbar-nav li{
+		font-size: 15px;
+	}
+	
+}
+
+@media (max-width:992px) {
+	.navbar-toggler{
+		margin:10px 0px 10px 30px;
+		background-color: #fff;
+		
+	}
+	.navbar-toggler:hover, .navbar-toggler:focus{
+		background-color: #095272;
+		border-color: #095272;
+	}
+
+	.navbar-light{
+		background-color: #fff;
+	}
+
+	.navbar-nav li a{
+		text-align: center;
+		background-color: #095272;
+	}
+	.navbar-nav li a:hover{
+		color:#fff;
+		background-color: #052E40;
+	}
+	
+}
+
 
 

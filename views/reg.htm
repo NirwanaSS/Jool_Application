@@ -17,6 +17,19 @@
 	<script src="../js/validation/joobseeker_login_validation.js"></script>
 	<script src="../js/validation/recruiter_login_validation.js"></script>
 	<script src="../js/validation/showPassword.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			SyntaxHighlighter.all();
+		});
+		$(window).load(function(){
+			$('.flexslider').flexslider({
+				animation:"slide",
+				start:function(slider){
+					$('body').removeClass("loading");
+				}
+			});
+		});
+	</script>
 </head>
 <body>
 
